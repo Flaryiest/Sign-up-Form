@@ -1,0 +1,61 @@
+
+body,html {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.sidebar {
+    width: 35vw;
+    height: 100vh;
+}
+img {
+    width: 35vw;
+    height: 99vh;
+    margin: 0px;
+}
+
+.header {
+    margin: 16px;
+    
+    height: 30.65vh;
+}
+
+.rightSide {
+    display: flex;
+    flex-direction: column;
+}
+
+
+label,input {
+    display: flex;
+    flex-direction:column;
+}
+
+.mainInformation {
+    height: 30vh;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.submit {
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.submitButton {
+    width: 15vw;
+    height: 3vh;
+}
+
