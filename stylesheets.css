@@ -48,7 +48,7 @@ table {
 }
 :root {
     margin: 0;
-    font-family:  Georgia, 'Times New Roman', Times;
+    font-family:  Arial, Georgia, 'Times New Roman', Times;
 }
 body,html {
     margin: 0;
@@ -80,6 +80,8 @@ img {
     color: black;
     height: 30vh;
     margin: 0;
+    font-size: calc(6px + 1vw);
+    
 }
 
 .rightSide {
@@ -127,11 +129,13 @@ label,input {
     border-radius: 8px;
     border: none;
 }
-
+.submitButton:hover {
+    box-shadow: 10px 5px 5px gainsboro;
+}
 
 .heroText {
     margin-top: 10vh;
-    font-weight: bold;
+    font-weight: 550;
     width: 40vw;
     padding-left: 10vw;
     line-height: 145%;
@@ -175,3 +179,6 @@ input {
     height: 2.25vh;
 }
 
+input:hover {
+    box-shadow: 10px 5px 5px gainsboro;
+}
